@@ -89,7 +89,7 @@ class _TicketContainerWidgetState extends State<TicketContainerWidget>
                             child: Text(
                               valueOrDefault<String>(
                                 widget.ticketInfo?.title,
-                                'Billy\'s Bomber',
+                                'Ruta 03  cerca',
                               ),
                               maxLines: 1,
                               style: FlutterFlowTheme.of(context)
@@ -115,7 +115,7 @@ class _TicketContainerWidgetState extends State<TicketContainerWidget>
                             child: Text(
                               valueOrDefault<String>(
                                 widget.ticketInfo?.date,
-                                '14 Jan, 2021 12:00',
+                                '28 Mar, 2025 7:00',
                               ),
                               maxLines: 1,
                               style: FlutterFlowTheme.of(context)
@@ -138,7 +138,7 @@ class _TicketContainerWidgetState extends State<TicketContainerWidget>
                 Text(
                   valueOrDefault<String>(
                     widget.ticketInfo?.destination,
-                    'Naperville',
+                    'UPA',
                   ),
                   maxLines: 1,
                   style: FlutterFlowTheme.of(context).bodyMedium.override(

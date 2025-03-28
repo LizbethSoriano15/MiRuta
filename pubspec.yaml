@@ -34,6 +34,7 @@ dependencies:
   collection: 1.19.0
   csslib: 0.17.3
   dropdown_button2: 2.3.9
+  equatable: 2.0.5
   expandable: 5.0.1
   file_picker: 8.1.2
   flutter_animate: 4.5.0
@@ -57,6 +58,7 @@ dependencies:
   google_maps_flutter_platform_interface: 2.9.2
   google_maps_flutter_web: 0.5.10
   html: 0.15.4
+  http: 1.2.2
   image_picker: 1.1.2
   image_picker_android: 0.8.12+13
   image_picker_for_web: 3.0.5

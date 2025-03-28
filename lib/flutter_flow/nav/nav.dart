@@ -200,6 +200,11 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           name: PrivacyPolicyScreenWidget.routeName,
           path: PrivacyPolicyScreenWidget.routePath,
           builder: (context, params) => PrivacyPolicyScreenWidget(),
+        ),
+        FFRoute(
+          name: SecurityScreenCopyWidget.routeName,
+          path: SecurityScreenCopyWidget.routePath,
+          builder: (context, params) => SecurityScreenCopyWidget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
     );

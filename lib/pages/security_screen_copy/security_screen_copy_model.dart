@@ -1,13 +1,15 @@
 import '/flutter_flow/flutter_flow_util.dart';
 import '/pages/component/custom_center_appbar/custom_center_appbar_widget.dart';
-import 'payment_method_screen_widget.dart' show PaymentMethodScreenWidget;
+import 'security_screen_copy_widget.dart' show SecurityScreenCopyWidget;
 import 'package:flutter/material.dart';
 
-class PaymentMethodScreenModel
-    extends FlutterFlowModel<PaymentMethodScreenWidget> {
+class SecurityScreenCopyModel
+    extends FlutterFlowModel<SecurityScreenCopyWidget> {
   ///  Local state fields for this page.
 
-  int? selectedList = 0;
+  bool faceSelect = true;
+
+  bool notificationSelect = false;
 
   ///  State fields for stateful widgets in this page.
 

@@ -49,3 +49,5 @@ export '/pages/schedule/bookmark_screen/bookmark_screen_widget.dart'
     show BookmarkScreenWidget;
 export '/pages/dialogs/privacy_policy_screen/privacy_policy_screen_widget.dart'
     show PrivacyPolicyScreenWidget;
+export '/pages/security_screen_copy/security_screen_copy_widget.dart'
+    show SecurityScreenCopyWidget;

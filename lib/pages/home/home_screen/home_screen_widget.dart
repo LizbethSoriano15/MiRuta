@@ -207,7 +207,7 @@ class _HomeScreenWidgetState extends State<HomeScreenWidget>
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Text(
-                                  'Airport map',
+                                  'MiRuta',
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
@@ -407,8 +407,9 @@ class _HomeScreenWidgetState extends State<HomeScreenWidget>
                                         hoverColor: Colors.transparent,
                                         highlightColor: Colors.transparent,
                                         onTap: () async {
-                                          _model.selectindex = 4;
-                                          safeSetState(() {});
+                                          context.pushNamed(
+                                              SecurityScreenCopyWidget
+                                                  .routeName);
                                         },
                                         child: Container(
                                           width: double.infinity,
@@ -483,6 +484,7 @@ class _HomeScreenWidgetState extends State<HomeScreenWidget>
                                         hoverColor: Colors.transparent,
                                         highlightColor: Colors.transparent,
                                         onTap: () async {
+                                          _model.selectindex = 5;
                                           safeSetState(() {});
                                         },
                                         child: Container(

@@ -1,4 +1,3 @@
-import '/flutter_flow/flutter_flow_google_map.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import '/pages/component/custom_center_appbar/custom_center_appbar_widget.dart';
@@ -44,7 +43,6 @@ class _PaymentMethodScreenWidgetState extends State<PaymentMethodScreenWidget> {
       },
       child: Scaffold(
         key: scaffoldKey,
-        resizeToAvoidBottomInset: false,
         backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
         body: SafeArea(
           top: true,
@@ -55,7 +53,7 @@ class _PaymentMethodScreenWidgetState extends State<PaymentMethodScreenWidget> {
                 model: _model.customCenterAppbarModel,
                 updateCallback: () => safeSetState(() {}),
                 child: CustomCenterAppbarWidget(
-                  title: 'Puntos de venta',
+                  title: 'Puntos de recarga',
                   backIcon: false,
                   addIcon: false,
                   onTapAdd: () async {},
@@ -72,29 +70,19 @@ class _PaymentMethodScreenWidgetState extends State<PaymentMethodScreenWidget> {
                   shrinkWrap: true,
                   scrollDirection: Axis.vertical,
                   children: [
+                    ClipRRect(
+                      borderRadius: BorderRadius.circular(8.0),
+                      child: Image.asset(
+                        'assets/images/oxxos.jpg',
+                        width: 200.0,
+                        height: 849.42,
+                        fit: BoxFit.cover,
+                      ),
+                    ),
                     Align(
                       alignment: AlignmentDirectional(0.0, 0.0),
                       child: Container(
                         height: 600.0,
-                        child: FlutterFlowGoogleMap(
-                          controller: _model.googleMapsController,
-                          onCameraIdle: (latLng) =>
-                              _model.googleMapsCenter = latLng,
-                          initialLocation: _model.googleMapsCenter ??=
-                              LatLng(21.80702, -102.29616),
-                          markerColor: GoogleMarkerColor.violet,
-                          mapType: MapType.normal,
-                          style: GoogleMapStyle.standard,
-                          initialZoom: 14.0,
-                          allowInteraction: true,
-                          allowZoom: true,
-                          showZoomControls: true,
-                          showLocation: true,
-                          showCompass: false,
-                          showMapToolbar: false,
-                          showTraffic: false,
-                          centerMapOnMarkerTap: true,
-                        ),
                       ),
                     ),
                   ],
