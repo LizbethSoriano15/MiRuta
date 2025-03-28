@@ -60,8 +60,6 @@ Al abrir la aplicación se muestra:
 
 \- Asistente virtual ChatBot MiRuta para consultas sobre rutas y apoyo en general.
 
-Beneficios
-
 \- Mayor seguridad en carretera con alertas tempranas
 
 \- Control completo de la flota desde cualquier lugar
@@ -76,10 +74,25 @@ Beneficios
 
 Descarga la aplicación, inicia sesión con tus credenciales y comienza a gestionar tu flota de manera más eficiente.
 
+
+<p align="center"> 
+  <img src="IMAGES_02/SS1.jpg" alt="Email Logo.png" width="150px" height="80px">
+</p>
+
+<p align="center"> 
+  <img src="IMAGES_02/SS2.jpg" alt="Email Logo.png" width="150px" height="80px">
+</p>
+<p align="center"> 
+  <img src="IMAGES_02/SS3.jpg" alt="Email Logo.png" width="150px" height="80px">
+</p>
+<p align="center"> 
+  <img src="IMAGES_02/SS4.jpg" alt="Email Logo.png" width="150px" height="80px">
+</p>
+
 Para más información o soporte técnico, contacta a nuestro equipo de atención.
 
 Equipo de Mi Ruta [contacto@miruta.com](mailto:contacto@miruta.com) - Soluciones integrales para la gestión de flotas.
 
 <p align="center"> 
-  <img src="IMAGES_02/MiRuta_Logo.jpg" alt="Email Logo.png" width="80px" height="80px">
+  <img src="IMAGES_02/MiRuta_Logo.jpg" alt="Email Logo.png" width="90px" height="90px">
 </p>
